@@ -28,7 +28,7 @@ function grid(isWindowResizing) {
               opacity: [1, 0],
               scale: [1, 0.9],
             }, {
-              duration: 600,
+              duration: 300,
               easing: [0.4,0.2,0.5,1.4],
               delay: delay
             });
