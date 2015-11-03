@@ -1,0 +1,22 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cards {
+    margin: auto;
+}
+
+.card {
+    width: 250px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
