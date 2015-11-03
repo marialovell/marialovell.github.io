@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+header {
+    /* background-color: #e2d4c9; */
+    padding: 1rem;   
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+header p {
+    margin: 0;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,4 +33,22 @@
 
 .card img {
     width: 100%;    
+}
+
+footer {
+    margin: 2rem 0;
+    padding: 1rem;
+   /* border-top: 1px solid #ccc; */
+}
+
+footer ol {
+    width: 300px;
+    margin: 0 auto;    
+    list-style-type: none;    
+}
+
+footer ol li {
+    float: left;
+    padding: 0;
+    margin: 0;
 }
