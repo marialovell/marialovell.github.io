@@ -11,7 +11,5 @@
   "devDependencies": {
     "gulp": "^3.9.0"
   },
-  "dependencies": {
-    "minigrid": "^2.2.0"
-  }
+  "dependencies": {}
 }

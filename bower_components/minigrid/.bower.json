@@ -1,0 +1,15 @@
+{
+  "name": "minigrid",
+  "homepage": "https://github.com/henriquea/minigrid",
+  "version": "2.2.0",
+  "_release": "2.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.0",
+    "commit": "9bee6dabffda901d87f0d5586253fc8153e6814d"
+  },
+  "_source": "git://github.com/henriquea/minigrid.git",
+  "_target": "~2.2.0",
+  "_originalSource": "minigrid",
+  "_direct": true
+}
