@@ -118,9 +118,9 @@
         item.style[transformProp] = 'translate3D(' + posX + 'px,' + posY + 'px, 0)';
       }
 
-      // Subtract 4 from the bounding client 
+      // Subtract 5 from the bounding client 
       // rectangle height, as this is a margin we don't want  
-      itemsGutter[itemIndex] += item.getBoundingClientRect().height -4 + gutter;
+      itemsGutter[itemIndex] += item.getBoundingClientRect().height -5 + gutter;
       count = count + 1;
 
       if (props.animate) {
