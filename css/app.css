@@ -16,6 +16,7 @@ header {
 
 .header-content {
     display: table;
+    margin: 0 auto;
 }
 
 .header-content h1 {
@@ -26,8 +27,15 @@ header {
 }
 
 .header-content h1 span {
+    display: none;    
+}
+
+@media (min-width: 760px) {
+  .header-content h1 span {
+    display: inline;
     font-size: 0.9rem;
     font-weight: 300;
+  }
 }
 
 .header-content .logo {
