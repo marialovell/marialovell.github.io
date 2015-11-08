@@ -2,8 +2,8 @@ $(function() {
 function grid(isWindowResizing) {
 
     minigrid({
-      container: '.cards',
-      item: '.card',
+      container: '.thumbnails',
+      item: '.thumbnail',
       gutter: 0,
       animate: function(el, x, y, index) {
         // set a different delay value for each item to make sure they don't show

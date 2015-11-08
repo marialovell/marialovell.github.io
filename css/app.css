@@ -3,7 +3,8 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Amatic SC', cursive;
 }
 
 header {
@@ -16,14 +17,15 @@ header {
 
 .header-content {
     display: table;
-    margin: 0 auto;
+    
 }
 
 .header-content h1 {
     margin: 0;
     display: table-cell;
     vertical-align: middle;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .header-content h1 span {
