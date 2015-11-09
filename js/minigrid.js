@@ -120,7 +120,7 @@
 
       // Subtract 5 from the bounding client 
       // rectangle height, as this is a margin we don't want  
-      itemsGutter[itemIndex] += item.getBoundingClientRect().height + gutter;
+      itemsGutter[itemIndex] += item.getBoundingClientRect().height -4 + gutter;
       count = count + 1;
 
       if (props.animate) {
