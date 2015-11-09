@@ -16,8 +16,7 @@ header {
 }
 
 .header-content {
-    display: table;
-    
+    display: table;    
 }
 
 .header-content h1 {
@@ -71,6 +70,13 @@ figure {
     margin: 0;
 	overflow: hidden;	
     width: 200px;  
+}
+
+figure.thumbnail p {
+    color: #2d434e;	
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 0.2rem 0 0.7rem 0;          
 }
 
 .card {        
